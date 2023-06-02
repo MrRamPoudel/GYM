@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 
 export default function Nav() {
   const [toggle, setToggle] = useState(false);
@@ -19,22 +20,22 @@ export default function Nav() {
               </a>
             </div>
             <div className="hidden md:flex items-center">
-              <a href="#" className="text-gray-300 hover:text-white px-4">
+              <Link href="/" className="text-gray-300 hover:text-white px-4">
                 Home
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white px-4">
+              </Link>
+              <Link href="/about" className="text-gray-300 hover:text-white px-4">
                 About
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white px-4">
+              </Link>
+              <Link href="/classes" className="text-gray-300 hover:text-white px-4">
                 Classes
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white px-4">
+              </Link>
+              <Link href="/pricing" className="text-gray-300 hover:text-white px-4">
                 Membership
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white px-4">
+              </Link>
+              <a href="/contact" className="text-gray-300 hover:text-white px-4">
                 Contact
               </a>
-              <a href="#" className="text-gray-300 hover:text-white px-4">
+              <a href="/login" className="text-gray-300 hover:text-white px-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30px"
@@ -94,24 +95,24 @@ export default function Nav() {
       {toggle && (
         <div className="md:hidden bg-gray-900">
           <div className="flex flex-col items-center">
-            <a href="#" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
+            <Link href="/" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
               Home
-            </a>
-            <a href="#" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
+            </Link>
+            <Link href="/about" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
               About
-            </a>
-            <a href="#" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
+            </Link>
+            <Link href="/classes" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
               Classes
-            </a>
-            <a href="#" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
+            </Link>
+            <Link href="/pricing" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
               Membership
-            </a>
-            <a href="#" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
+            </Link>
+            <Link href="/contact" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
               Contact
-            </a>
-            <a href="#" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
+            </Link>
+            <Link href="/login" className="text-white py-2 hover:bg-gray-500 block w-full text-center">
               Log in
-            </a>
+            </Link>
           </div>
         </div>
       )}
