@@ -26,7 +26,7 @@ const Membership: React.FC = () => {
                             <p className='text-white font-semibold text-sm'>Free Wi-Fi</p>
                         </div>
                         <div className='rounded-3xl relative pt-4'>
-                            <button className="bottom-0 w-full bg-blue-700 text-xl text-white px-4 rounded-3xl">JOIN</button>
+                            <button className="bottom-0 w-full bg-blue-700 text-xl text-white px-4 rounded-3xl font-medium py-2">JOIN</button>
                         </div>
                     </div>
                     <div className='w-96 p-8 pr-16 bg-gray-900 text-white text-center rounded-3xl scale-125 '>
@@ -46,13 +46,13 @@ const Membership: React.FC = () => {
                             <span className=" text-white font-semibold text-sm"> merchandise and supplements</span>
                         </div>
                         <div className='rounded-3xl relative pt-4'>
-                            <button className="bottom-0 w-4/5 bg-blue-700 text-xl text-white px-4 rounded-3xl">JOIN</button>
+                            <button className="bottom-0 w-4/5 bg-blue-700 text-xl text-white px-4 rounded-3xl font-medium py-1">JOIN</button>
                         </div>
                     </div>
                     <div className='w-80 p-8 pr-8 bg-blue-300 text-center rounded-3xl '>
                         <p className='text-md text-black font-semibold'>Elite</p>
                         <p className='pt-2'>
-                            <span className="text-gray-400 align-top">$ </span>
+                            <span className="text-black align-top">$ </span>
                             <span className="text-3xl font-semibold">34</span>
                             <span className="text-2xl font-semibold align-top">99</span>
                         </p>
@@ -66,7 +66,7 @@ const Membership: React.FC = () => {
                             <p className='text-white font-semibold text-sm'>Guest passes</p>
                         </div>
                         <div className='rounded-3xl relative pt-4 '>
-                            <button className="bottom-0 w-4/5 bg-blue-700 text-xl text-white px-4 rounded-3xl">JOIN</button>
+                            <button className="bottom-0 w-4/5 bg-blue-700 text-xl text-white px-4 rounded-3xl font-medium py-2">JOIN</button>
                         </div>
                     </div>
                 </div>
