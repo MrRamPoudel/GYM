@@ -20,10 +20,10 @@ const Membership: React.FC = () => {
                             <span className="text-2xl font-semibold align-top">99</span>
                         </p>
                         <div className="pt-2">
-                            <p className='text-white font-semibold'>Cardio, Weights, & Machines</p>
-                            <p className='text-white font-semibold'>Locker Room with Showers</p>
-                            <p className='text-white font-semibold'>Access to Home Club</p>
-                            <p className='text-white font-semibold'>Free Wi-Fi</p>
+                            <p className='text-white font-semibold text-sm'>Cardio, Weights, & Machines</p>
+                            <p className='text-white font-semibold text-sm'>Locker Room with Showers</p>
+                            <p className='text-white font-semibold text-sm'>Access to Home Club</p>
+                            <p className='text-white font-semibold text-sm'>Free Wi-Fi</p>
                         </div>
                         <div className='rounded-3xl relative pt-4'>
                             <button className="bottom-0 w-full bg-blue-700 text-xl text-white px-4 rounded-3xl">JOIN</button>
@@ -38,9 +38,9 @@ const Membership: React.FC = () => {
                             <span className="text-2xl font-semibold align-top">99</span>
                         </p>
                         <div className="pt-2">
-                            <p className='text-white font-semibold'>Everything in Basic plan</p>
-                            <p className='text-white font-semibold'>Access to all 325 clubs</p>
-                            <p className='text-white font-semibold'>Hydro massage</p>
+                            <p className='text-white font-semibold text-sm'>Everything in Basic plan</p>
+                            <p className='text-white font-semibold text-sm'>Access to all 325 clubs</p>
+                            <p className='text-white font-semibold text-sm'>Hydro massage</p>
                             <span className='text-white font-semibold text-sm'>25% Discounts on Select</span>
                             <span className ='text-white font-semibold text-xsm'>*</span> 
                             <span className=" text-white font-semibold text-sm"> merchandise and supplements</span>
@@ -57,12 +57,13 @@ const Membership: React.FC = () => {
                             <span className="text-2xl font-semibold align-top">99</span>
                         </p>
                         <div className="pt-2 text-center pl-8">
-                            <p className='text-white font-semibold'>Everything in Pro plan</p>
-                            <p className='text-white font-semibold'>Access to all 350 clubs</p>
-                            <p className='text-white font-semibold'>Access to Premium gym equipment</p>
+                            <p className='text-white font-semibold text-sm'>Everything in Pro plan</p>
+                            <p className='text-white font-semibold text-sm'>Access to all 350 clubs</p>
+                            <p className='text-white font-semibold text-sm'>Access to Premium gym equipment</p>
                             <span className='text-white font-semibold text-sm'>50% Discounts on Select</span>
                             <span className ='text-white font-semibold text-xsm'>*</span> 
-                            <span className=" text-white font-semibold text-sm"> merchandise and supplements</span>                            <p className='text-white font-semibold'>Guest passes</p>
+                            <span className=" text-white font-semibold text-sm"> merchandise and supplements</span>                            
+                            <p className='text-white font-semibold text-sm'>Guest passes</p>
                         </div>
                         <div className='rounded-3xl relative pt-4 '>
                             <button className="bottom-0 w-4/5 bg-blue-700 text-xl text-white px-4 rounded-3xl">JOIN</button>
