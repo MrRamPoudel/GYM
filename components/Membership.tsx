@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Membership: React.FC = () => {
@@ -12,7 +13,7 @@ const Membership: React.FC = () => {
                     <p className='pt-6 text-center w-full text-xl'>Choose a plan that is right for you</p>
                 </div>
                 <div className='pt-24 flex flex-row '>
-                    <div className='relative w-80 p-8 pr-16 bg-red-300 text-center rounded-3xl '>
+                    <div className='relative w-80 p-8 pr-16 bg-white text-center rounded-3xl shadow-md '>
                         <p className='text-md text-black font-semibold'>Basic</p>
                         <p className='pt-2'>
                             <span className="text-black align-top">$ </span>
@@ -20,13 +21,13 @@ const Membership: React.FC = () => {
                             <span className="text-2xl font-semibold align-top">99</span>
                         </p>
                         <div className="pt-2">
-                            <p className='text-white font-semibold text-sm'>Cardio, Weights, & Machines</p>
-                            <p className='text-white font-semibold text-sm'>Locker Room with Showers</p>
-                            <p className='text-white font-semibold text-sm'>Access to Home Club</p>
-                            <p className='text-white font-semibold text-sm'>Free Wi-Fi</p>
+                            <p className='text-black font-semibold text-sm'>Cardio, Weights, & Machines</p>
+                            <p className='text-black font-semibold text-sm'>Locker Room with Showers</p>
+                            <p className='text-black font-semibold text-sm'>Access to Home Club</p>
+                            <p className='text-black font-semibold text-sm'>Free Wi-Fi</p>
                         </div>
                         <div className='rounded-3xl relative pt-4'>
-                            <button className="bottom-0 w-full bg-blue-700 text-xl text-white px-4 rounded-3xl font-medium py-2">JOIN</button>
+                            <Link href = {`/pricing/popular`} className="bottom-0 w-full bg-blue-700 text-xl text-white px-4 rounded-3xl font-medium py-2">JOIN</Link>
                         </div>
                     </div>
                     <div className='w-96 p-8 pr-16 bg-gray-900 text-white text-center rounded-3xl scale-125 '>
@@ -49,7 +50,7 @@ const Membership: React.FC = () => {
                             <button className="bottom-0 w-4/5 bg-blue-700 text-xl text-white px-4 rounded-3xl font-medium py-1">JOIN</button>
                         </div>
                     </div>
-                    <div className='w-80 p-8 pr-8 bg-blue-300 text-center rounded-3xl '>
+                    <div className='w-80 p-8 pr-8 bg-white text-center rounded-3xl shadow-md'>
                         <p className='text-md text-black font-semibold'>Elite</p>
                         <p className='pt-2'>
                             <span className="text-black align-top">$ </span>
@@ -57,13 +58,13 @@ const Membership: React.FC = () => {
                             <span className="text-2xl font-semibold align-top">99</span>
                         </p>
                         <div className="pt-2 text-center pl-8">
-                            <p className='text-white font-semibold text-sm'>Everything in Pro plan</p>
-                            <p className='text-white font-semibold text-sm'>Access to all 350 clubs</p>
-                            <p className='text-white font-semibold text-sm'>Access to Premium gym equipment</p>
-                            <span className='text-white font-semibold text-sm'>50% Discounts on Select</span>
-                            <span className ='text-white font-semibold text-xsm'>*</span> 
-                            <span className=" text-white font-semibold text-sm"> merchandise and supplements</span>                            
-                            <p className='text-white font-semibold text-sm'>Guest passes</p>
+                            <p className='text-black font-semibold text-sm'>Everything in Pro plan</p>
+                            <p className='text-black font-semibold text-sm'>Access to all 350 clubs</p>
+                            <p className='text-black font-semibold text-sm'>Access to Premium gym equipment</p>
+                            <span className='text-black font-semibold text-sm'>50% Discounts on Select</span>
+                            <span className ='text-black font-semibold text-xsm'>*</span> 
+                            <span className=" text-black font-semibold text-sm"> merchandise and supplements</span>                            
+                            <p className='text-black font-semibold text-sm'>Guest passes</p>
                         </div>
                         <div className='rounded-3xl relative pt-4 '>
                             <button className="bottom-0 w-4/5 bg-blue-700 text-xl text-white px-4 rounded-3xl font-medium py-2">JOIN</button>
